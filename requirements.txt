@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+xgboost
+matplotlib
+seaborn
+folium
+geopandas
+jupyter
+numpy
+plotly
+pycaret
