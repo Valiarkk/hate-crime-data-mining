@@ -10,8 +10,8 @@ COPY requirements.txt .
 # Install the required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Jupyter and other tools (if you need them)
-RUN pip install jupyter
+# Install additional dependencies for advanced visualizations
+RUN pip install jupyter jupyterlab ipywidgets plotly networkx statsmodels folium
 
 # Copy the project files into the container's working directory
 COPY . .

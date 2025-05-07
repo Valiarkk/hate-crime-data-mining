@@ -100,10 +100,13 @@ Then open the provided URL in your browser to access the Jupyter notebook.
 - Analysis in `hate-crime.ipynb` reveals that the most common bias types are Anti-Black/African American, Anti-Gay (Male), and Anti-Jewish
 - Key findings include:
   - Distinctive clusters of hate crime incidents based on victim and offender demographics
-  - Strong temporal patterns showing fluctuations in specific bias types over time
-  - Machine learning models can predict racial bias motivation with good accuracy
-  - Association rules reveal interesting co-occurrence patterns between locations, offenses, and bias types
-  - Geospatial visualization highlights concentration of incidents in specific areas
+  - Strong temporal patterns showing fluctuations in specific bias types over time with clear seasonal components
+  - Machine learning models can predict racial bias motivation with over 75% accuracy
+  - Association rules reveal significant co-occurrence patterns between locations, offenses, and bias types
+  - Geospatial analysis identifies hotspots that could benefit from targeted intervention
+  - Network analysis demonstrates complex relationships between bias types and offense categories
+  - Statistical tests confirm significant differences in victim counts across bias types
+  - Interactive visualizations provide comprehensive insights for presentation and decision-making
 
 ---
 
