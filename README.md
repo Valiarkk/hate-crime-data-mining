@@ -11,10 +11,11 @@ This project focuses on mining patterns from a dataset of hate crimes in the Uni
 ## 🧱 Project Structure
 
 - `notebooks/`: Jupyter notebooks with data analysis
-  - `hate-crime.ipynb`: Main analysis notebook with data cleaning, EDA, and feature engineering
+  - `hate-crime.ipynb`: Main analysis notebook with data mining and machine learning techniques
 - `hate-crime_2017-2025.csv`: Raw dataset file
-- `requirements.txt`: Python dependencies
-- `Dockerfile`: Container configuration
+- `requirements.txt`: Python dependencies for data analysis and machine learning
+- `Dockerfile`: Container configuration for reproducible analysis
+- `hate-crime.png`: Project logo
 
 ---
 
@@ -68,11 +69,11 @@ Then open the provided URL in your browser to access the Jupyter notebook.
 | Data Cleaning       | ✅ Done     |
 | EDA                 | ✅ Done     |
 | Feature Engineering | ✅ Done     |
-| Clustering          | 🔜 Planned  |
-| Classification      | 🔜 Planned  |
-| Association Rules   | 🔜 Planned  |
-| Geospatial Analysis | 🔜 Planned  |
-| Final Report        | 🔄 Drafting |
+| Clustering          | ✅ Done     |
+| Classification      | ✅ Done     |
+| Association Rules   | ✅ Done     |
+| Geospatial Analysis | ✅ Done     |
+| Final Report        | ✅ Done     |
 | Presentation Slides | 🔄 Drafting |
 
 ---
@@ -82,22 +83,27 @@ Then open the provided URL in your browser to access the Jupyter notebook.
 - [x] Clean and preprocess data
 - [x] Perform initial EDA
 - [x] Create feature engineering pipeline
-- [ ] Implement clustering models and interpret results
-- [ ] Build classification models for bias prediction
-- [ ] Run association rule mining
-- [ ] Develop geospatial visualizations
-- [ ] Finalize visuals for report
-- [ ] Write full project report in PDF
+- [x] Implement clustering models and interpret results
+- [x] Build classification models for bias prediction
+- [x] Run association rule mining
+- [x] Develop geospatial visualizations
+- [x] Finalize visuals for report
+- [x] Write full project report in PDF
 - [ ] Prepare presentation slides
 
 ---
 
-## 🔍 Dataset Source
+## 🔍 Dataset Source & Key Findings
 
 - The dataset was compiled from official hate crime reports covering the years 2017–2025.
 - Contains fields such as `Date of Incident`, `Bias`, `Offense(s)`, `Location`, `Victim Demographics`, etc.
 - Analysis in `hate-crime.ipynb` reveals that the most common bias types are Anti-Black/African American, Anti-Gay (Male), and Anti-Jewish
-- Initial analysis includes time series trends and relationships between bias types and offense types
+- Key findings include:
+  - Distinctive clusters of hate crime incidents based on victim and offender demographics
+  - Strong temporal patterns showing fluctuations in specific bias types over time
+  - Machine learning models can predict racial bias motivation with good accuracy
+  - Association rules reveal interesting co-occurrence patterns between locations, offenses, and bias types
+  - Geospatial visualization highlights concentration of incidents in specific areas
 
 ---
 
