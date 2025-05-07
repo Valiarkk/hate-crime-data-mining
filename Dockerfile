@@ -19,5 +19,5 @@ COPY . .
 # Expose port 8888 for Jupyter Notebook
 EXPOSE 8888
 
-# Start Jupyter Notebook with minimal security for development (you may want to add authentication for production)
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--notebook-dir=/app/notebooks"]
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--notebook-dir=/app/notebooks", "--NotebookApp.token=''"]
+
