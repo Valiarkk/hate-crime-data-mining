@@ -1,17 +1,102 @@
-pandas>=1.3.0
-scikit-learn>=1.0.0
-xgboost>=1.5.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-folium>=0.12.0
-geopandas>=0.10.0
+# ===================================================================
+# NEFRET SUÇU DATA MINING PROJESİ - DEPENDENCY REQUIREMENTS
+# ===================================================================
+# Bu dosya projenin tüm Python kütüphane gereksinimlerini içerir
+# Kurulum: pip install -r requirements.txt
+
+# ===================================================================
+# CORE DATA SCIENCE STACK
+# ===================================================================
+
+# Veri manipülasyonu ve analizi
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Bilimsel hesaplama ve istatistik
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# ===================================================================
+# MACHINE LEARNING VE PATTERN MINING
+# ===================================================================
+
+# Scikit-learn ecosystem
+scikit-learn>=1.3.0
+
+# Gradient boosting
+xgboost>=2.0.0
+
+# Association rule mining
+mlxtend>=0.22.0
+
+# ===================================================================
+# VİZUALİZASYON VE GRAFİK
+# ===================================================================
+
+# Statik görselleştirme
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# İnteraktif görselleştirme
+plotly>=5.15.0
+
+# Jupyter notebook widgets
+ipywidgets>=8.0.0
+
+# ===================================================================
+# NETWORK ANALYSIS VE GRAF TEORİSİ
+# ===================================================================
+
+# Graf algoritmaları
+networkx>=3.1.0
+
+# Community detection (NetworkX ile uyumlu)
+python-louvain>=0.16
+
+# ===================================================================
+# COĞRAFI ANALİZ (OPTIONAL)
+# ===================================================================
+
+# İnteraktif haritalar
+folium>=0.14.0
+
+# Spatial data (optional - binary dependencies)
+# geopandas>=0.13.0  # Uncomment if spatial analysis needed
+
+# ===================================================================
+# JUPYTER NOTEBOOK ENVIRONMENT
+# ===================================================================
+
+# Notebook server
 jupyter>=1.0.0
-jupyterlab>=3.0.0
-numpy>=1.20.0
-plotly>=5.3.0
-pycaret>=2.3.0
-ipywidgets>=7.6.0
-mlxtend>=0.19.0  # For association rules mining
-networkx>=2.6.0  # For network analysis
-statsmodels>=0.12.0  # For time series analysis
-scipy>=1.7.0  # For statistical testing
+jupyterlab>=4.0.0
+
+# Notebook extensions
+nbformat>=5.8.0
+
+# ===================================================================
+# UTILITY VE DEVELOPMENT
+# ===================================================================
+
+# Progress bars
+tqdm>=4.65.0
+
+# Excel dosya desteği
+openpyxl>=3.1.0
+
+# ===================================================================
+# PERFORMANCE VE OPTIMIZATION
+# ===================================================================
+
+# Numerik hesaplama hızlandırması
+numba>=0.57.0  # JIT compilation
+
+# Memory profiling (development)
+memory-profiler>=0.60.0
+
+# ===================================================================
+# DATA VALIDATION VE QUALITY
+# ===================================================================
+
+# Veri profiling
+pandas-profiling>=3.6.0
